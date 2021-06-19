@@ -16,10 +16,9 @@ host : [open](https://app.link).
 
 • ACCOUNT SETTINGS/MENU
 
-
 • RESPONSIVE DESIGN
 
-### `MYLSIT`
+### `MY LSIT`
 
  Add your `Favorite Movies` to my list which is stored in `Firebase Firestore`,
  Also watch your favorite movies in `My List` tab/page
