@@ -52,5 +52,5 @@ Well `DESIGNED` user Interface which will give an positive user expirers,`RESPON
 
 
 ### Meet Me @
-shajin_sha : [Mail Me ](https://shajin.sha10@gamil.com).
+shajin_sha : [Mail Me ](shajin.sha10@gamil.com).
 
