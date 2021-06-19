@@ -1,0 +1,152 @@
+.MovieContentSearch{
+    position: relative;
+    top:25%;
+    height: max-content;
+    width: 90%;
+    background: #111111;
+    margin: 4.5%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 10%;
+    z-index: 100;
+    background-size: cover;
+}
+.MovieContentSearch-gt{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to left,rgb(0, 0, 0),rgba(255, 255, 255, 0));
+    top:0%;
+    z-index: 10;
+}
+.MovieContentSearch-gt:hover{
+    background:linear-gradient(to left,rgb(0, 0, 0),60%,rgba(255, 255, 255, 0));
+}
+
+
+.MovieContentSearch--MovieName{
+    width: 100%;
+    color: #fff;
+    font-size: 1.9rem;
+    text-align: left;
+    font-weight:1400;
+    z-index: 12;
+}
+
+.MovieContentSearch--description{
+    overflow: hidden;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    /* max-height: 150px; */
+    font-weight: 250;
+    max-lines: 3;
+    text-overflow: ellipsis;
+    z-index: 12;
+}
+
+.contents{
+    position: relative;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    right: 1%;
+    margin-left: 4%;
+    width: 100%;
+}
+
+.buttons--MovieContentSearch{
+    position: absolute;
+    bottom: 5%;
+    width: 65%;
+    z-index: 12;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.mainContent{
+    position:absolute;
+    top:25%;
+}
+
+.button0--MovieContentSearch{
+    border: none;
+    outline: none;
+    margin: 3%;
+    padding: 2%;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    background: rgb(141, 3, 3);
+    cursor: pointer;
+    font-weight: bolder;
+    width: 95%;
+    color:#fff;
+
+}
+.button0--MovieContentSearch:hover{
+    background: rgb(131, 5, 5);
+
+}
+.button1--MovieContentSearch{
+    border: none;
+    outline: none;
+    margin: 3%;
+    padding: 2%;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    background: rgba(204, 204, 204, 0.829);
+    cursor: pointer;
+    font-weight: bolder;
+    width: 95%;
+    color: rgb(31, 31, 31);
+
+}
+.button1--MovieContentSearch:hover{
+    background: rgba(219, 213, 213, 0.897);
+
+}
+
+
+@media (min-width: 235px) and (max-width:645px){
+    .MovieContentSearch--img{
+        margin-left: 3%;
+        max-width: 12rem;
+        height: auto;
+        margin-right: 4%;
+        
+    }
+    .MovieContentSearch--MovieName{
+        font-size: 1rem;
+        margin-right: 5%;
+        bottom: 90%;
+    }
+    
+    .MovieContentSearch--description{
+         font-size: 0.7rem;
+         max-height: 70px;
+         margin-bottom: 30%;
+    }
+    .contents{
+        right: 1%;
+    }
+    .buttons--MovieContentSearch{
+        position: absolute;
+        bottom: 2%;
+        width: 100%;
+    
+
+    }
+    .button--MovieContentSearch{
+        width: 85%;
+    }
+}
+
+@media (min-width: 180px) and (max-width:360px){
+
+}

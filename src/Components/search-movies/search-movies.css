@@ -1,0 +1,38 @@
+.search-moviesDiv{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    top:0%;
+    left:0%;
+    z-index: 51;
+    overflow-x: hidden;
+    animation-name: openAnimSr;
+    animation-duration: 45ms;
+}
+@keyframes openAnimSr{
+    0%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.searchInput{
+    position: fixed;
+    top:13%;
+    background: rgb(54, 54, 54);
+    border: none;
+    outline: none;
+    width:65%;
+    height: 3%;
+    padding: 1%;
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 1.1rem;
+    z-index: 200;
+    left:0;
+    right: 0;
+    margin: auto;
+    
+}

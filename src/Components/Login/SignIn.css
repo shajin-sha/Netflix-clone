@@ -1,0 +1,127 @@
+.SignIN{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 501;
+    background-image: url("https://www.analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg");
+    background-size: cover;
+}
+.SignInContent{
+    position:absolute;
+    height: 85%;
+    background: rgba(0, 0, 0, 0.829);
+    width: 400px;
+    color: #ffff;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.Input{
+    height: 5%;
+    width: 70%;
+    padding: 3%;
+    border: none;
+    outline: none;
+    background-color: #333333;
+    color: #ffff;
+    font-size: 1rem;
+    border-radius: 2.5px;
+    margin: 5%;
+}
+.SignInText{
+position: relative;
+margin-right: 45%;
+font-size: 2.2rem;
+font-family: Arial, Helvetica, sans-serif;
+top:7%;
+}
+.INputs{
+    position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 75%;
+   bottom: 15%;
+}
+
+
+.SignInButton{
+    bottom: 28%;
+    position: relative;
+    width: 75%;
+    height: 10%;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background: #e50913;
+    color: #ffff;
+    font-size: 1.1rem;
+    font-weight: 545;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.SignInButton:hover{
+    background: #990e15;
+}
+
+
+
+
+.newToNeflixSignUp{
+    position: relative;
+    right: -5%;
+    bottom: 5%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#6e7271;
+    font-size: 1.01rem;
+    width: 100%;
+}
+
+
+.SignIn{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.719);
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration:none;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.644);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0.644);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255, 255, 255, 0.644);
+  }
+
+  @media (min-width: 235px) and (max-width:465px){
+    .SignInContent{
+        width: 350px;
+        height: 80;
+    }
+
+
+}

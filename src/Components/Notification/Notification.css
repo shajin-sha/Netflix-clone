@@ -1,0 +1,15 @@
+.Notification{
+    position:fixed;
+    height: 100%;
+    width: 100%; 
+    background: rgb(0, 0, 0); 
+    top:0%;
+    left:0%;
+    z-index: 201;
+    overflow-y: scroll;
+
+}
+
+.Notification::-webkit-scrollbar{
+    display: none;
+}

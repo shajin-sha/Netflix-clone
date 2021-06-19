@@ -1,0 +1,48 @@
+.TvShows{
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    top:0%;
+    left:0%;
+    overflow-y: scroll;
+
+}
+.tvShowBanner{
+    transition: all 100ms ease-in-out;
+    position: relative;
+    width: 90%;
+    height: 65%;
+    left:0;
+    right: 0;
+    top:15%;
+    margin: auto;
+    box-shadow:inset 5px 5px 5px 1000px #00000031;
+    /* background-image: url("https://image.tmdb.org/t/p/original/jXB3OoWPkojsOP2O2OoLCeAIDRS.jpg"); */
+    background-size: cover;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.tvShowBanner:hover{
+    box-shadow:inset 5px 5px 5px 1000px #00000096;
+}
+.tvShowInFo{
+    position: relative;
+    color: #ffff;
+    left:2%;
+    font-size: 1.8rem;
+    /* background: red; */
+    text-align: left;
+
+}
+.tvShowBanner-description{
+    max-width: 55%;
+    font-size: 1.4rem;
+}
+
+.tvShowBanner-title{
+    max-width: 76%;
+}

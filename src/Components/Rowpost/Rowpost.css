@@ -1,0 +1,142 @@
+.row{
+    color: #ffff;
+    text-align: left;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+
+
+
+.row::-webkit-scrollbar{
+    height: 0.4rem;
+
+}
+.row::-webkit-scrollbar-thumb:hover{
+    background: rgb(255, 255, 255);
+}
+.row::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0.288);
+    border-radius: 20px;
+}
+
+.posters{
+    display: flex;
+    margin: none;
+    padding: none;
+
+}
+.poster{
+    transition: transform 120ms ease-in-out ;
+    max-height: 17rem;
+    cursor:pointer;
+    border-radius: 3px;
+    margin: none;
+    -webkit-user-drag: none;
+}
+
+.poster:active{
+    opacity: 70%;
+}
+.poster:hover{
+    transform: scale(1.02);
+}
+.MovieTitle{
+    position: relative;
+    color:rgba(255, 249, 249, 0.685);
+    font-size: 180%;
+    font-weight: 480;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.small{
+    max-height: 11rem;
+    margin-right: 5%;
+    border-radius: 3px;
+    transition: transform 120ms ease-in-out ;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.small:hover{
+    transform: scale(1.1);
+}
+
+.small:active{
+    opacity: 70%;
+}
+
+
+
+.normalDiv{
+    position: relative;
+    width: 5rem;
+    height: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.123);
+    bottom:17%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    left:2%;
+    border-radius: 20px;
+    cursor: default;
+    opacity: 65%;
+
+
+}
+
+.MyList-row{
+    position: relative;
+    bottom: 25%;
+    left: 70%;
+    border: none;
+    width: 25%;
+    padding: 1%;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    background: rgba(211, 210, 210, 0.335);color: rgba(255, 255, 255, 0.925);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    outline: none;
+
+}
+.MyList-row:hover{
+background: rgb(161, 4, 4);
+}
+
+.MyList-row-small{
+    position: relative;
+    bottom: 30%;
+    left: 40%;
+    border: none;
+    width: 50%;
+    padding: 1%;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    background: rgba(211, 210, 210, 0.151);color: rgba(255, 255, 255, 0.925);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    outline: none;
+
+}
+
+.MyList-row-small:hover{
+    background: rgb(161, 4, 4);
+    }
+    
+
+
+
+
+@media (min-width: 235px) and (max-width:935px){
+    .poster{
+        max-height: 13rem;
+    }
+}

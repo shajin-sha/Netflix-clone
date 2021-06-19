@@ -1,0 +1,22 @@
+.videoPlyer{
+    position: absolute;
+    top:-15%;
+    left:-22%;
+    width: 145%;
+    height: 130%;
+    transform: scale(1);
+    /* display: none; */
+}
+
+
+
+@media (min-width: 235px) and (max-width:935px){
+    .videoPlyer{
+        position: absolute;
+        top:-45%;
+        left:0%;
+        width: 100%;
+        height: 155%;
+    }
+   
+}

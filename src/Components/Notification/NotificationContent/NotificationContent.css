@@ -1,0 +1,63 @@
+.NotificationContent{
+    position: relative;
+    top:12%;
+    width: 97%;
+    height: max-content;
+    background: rgb(24, 23, 23);
+    left:2%;
+}
+
+.NotificationContent:hover{
+    background: rgb(17, 17, 17);
+
+}
+
+.NotificationContentHeder{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    left:3%;
+    font-family: Arial, Helvetica, sans-serif;
+    top:10px;
+    font-weight: 900;
+    max-width: 65%;
+}
+
+.NotificationContentTitle{
+    position: relative;
+    color: #fff;
+    font-size: 1.3rem;
+    left:3%;
+    font-weight: 250;
+
+}
+
+.NotificationContentDate{
+    position:absolute;
+    right:2%;
+    top:2%;
+    color: rgba(255, 255, 255, 0.589);
+}
+
+.MarkAsReadNotificationContent{
+    position:relative;
+    left:85%;
+    margin-bottom: 2%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0.5%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+}
+.MarkAsReadNotificationContent:hover{
+    background: rgba(168, 224, 15, 0.774);
+}
+
+.MarkAsReadNotificationContent:active{
+    opacity: 20%;
+}
+
+

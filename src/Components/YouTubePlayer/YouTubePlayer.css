@@ -1,0 +1,66 @@
+.video{
+    border-radius: 3px;
+    transform: scale(2.2);
+    
+}
+.close_icon{
+    transition: all 110ms ease-in-out;
+    position: absolute;
+    bottom:4%;
+    right: 1%;
+    width: 1.2rem;
+    background: rgb(17, 17, 17);
+    border-radius: 50%;
+    padding: 1.2%;
+    cursor: pointer;
+
+}
+
+.netLogo{
+    transition: all 110ms ease-in-out;
+    position: absolute;
+    top:4%;
+    left: 1%;
+    width: 10rem;
+    background: rgb(17, 17, 17);
+    border-radius: 50%;
+    padding: 1.2%;
+    cursor: pointer;
+}
+
+
+
+
+
+.close_icon:hover{
+    transform: scale(1.1);
+    opacity: 85%;
+}
+
+.div_palyer{
+    animation: openAmin;
+    animation-duration: 700ms;
+    transform: scale(1);
+    overflow: hidden;
+    z-index: 100;
+    background: black;
+
+
+}
+
+@keyframes openAmin{
+    0%{ 
+        opacity: 0%;
+        transform: scale(0);
+        width: 0%;
+        height: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+        transform: scale(1);
+        width: 98%;
+        height: 50%;
+    }
+
+}
