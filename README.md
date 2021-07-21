@@ -2,7 +2,7 @@
 
 host : [open](https://netflix-d7399.web.app/signup).
 
-## Furthers of the clone
+## what in the clone
 
 • MYLSIT
 
