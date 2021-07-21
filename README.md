@@ -56,6 +56,10 @@ shajin_sha : [Mail Me ](shajin.sha10@gamil.com).
 
 
 ![image](https://i.ibb.co/k14J602/iphone-11-mockup.png)
+![image](https://i.ibb.co/hFpsFcc/woman-holding-smartphone-mockup.png)
+![image](https://i.ibb.co/jJ98bt7/google-pixelbook-mockup.png)
+
+
 
 
 
