@@ -18,7 +18,7 @@ host : [open](https://netflix-d7399.web.app/signup).
 
 • RESPONSIVE DESIGN
 
-### `MY LSIT`
+### `MY LIST`
 
  Add your `Favorite Movies` to my list which is stored in `Firebase Firestore`,
  Also watch your favorite movies in `My List` tab/page
